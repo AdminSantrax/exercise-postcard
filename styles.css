@@ -53,17 +53,16 @@ input hover {
 }
 .postcard-footer {
 	text-align: center;
-	overflow: hidden;
 }
 button {
 	background-color: rgba(128, 0, 128, 0.5);
 	padding: 1%;
-	transition: background 0.5s, color 3s, transform 380ms;
+	transition: background 0.5s, color 3s, transform 1s;
 }
 
 button:hover {
 	background: rgba(0, 255, 200, 0);
-	transform: scale(200%);
+	transform: scale(150%);
 }
 img {
 	border-radius: 100%;
@@ -92,4 +91,10 @@ img {
 }
 .postcard-header > div:hover .surprisee {
 	opacity: 0;
+}
+@media screen {
+	max-width: 768px;
+	button:hover {
+		transform: scale(110%);
+	}
 }
