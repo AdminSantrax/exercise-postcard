@@ -92,9 +92,8 @@ img {
 .postcard-header > div:hover .surprisee {
 	opacity: 0;
 }
-@media screen {
-	max-width: 768px;
-	button:hover {
-		transform: scale(110%);
-	}
+@media (max-width: 768px) {
+    button:hover {
+        transform: scale(110%);
+    }
 }
