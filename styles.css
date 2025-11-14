@@ -1,8 +1,10 @@
 .postcard {
 	border: 1px solid black;
 	border-radius: 10px;
-	width: 400px;
-	height: 350px;
+	width: 90%;
+	max-width: 400px;
+	height: auto;
+	min-height: 300px;
 	margin: auto;
 	background: rgb(0 255 200 / 50%);
 	font-size: 20px;
