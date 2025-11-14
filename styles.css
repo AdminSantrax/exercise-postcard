@@ -62,7 +62,7 @@ button {
 
 button:hover {
 	background: rgba(0, 255, 200, 0);
-	transform: scale(150%);
+	transform: scale(130%);
 }
 img {
 	border-radius: 100%;
